@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block body %}	
+	<h2>Register</h2>
+	<form action="/register" method="post">
+		<input id="field1" type="text" name="name" placeholder="Name">
+		<input id="field2" type="text" name="phone" placeholder="Phone Number">
+		<input id="button" type="submit" disabled>
+	</form>
+	<script type="text/javascript">
+		field1 = document.querySelector("#field1")
+		field2 = document.querySelector("#field2")
+		field1.onkeyup = function() {
+			if (field1.value === "" || field2.value === ""){
+				button.disabled = true
+			}
+			else{
+				button.disabled = false
+			}
+		}
+		field2.onkeyup = function() {
+			if (field1.value === "" || field2.value === ""){
+				button.disabled = true
+			}
+			else{
+				button.disabled = false
+			}
+		}
+	</script>
+	<br>
+	<a href="/">Go Back</a>
+{% endblock %}
