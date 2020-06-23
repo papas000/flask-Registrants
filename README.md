@@ -6,5 +6,5 @@ open http://127.0.0.1:5000/
 # Desktop Live Preview:
 https://papas000.eu.pythonanywhere.com/
 
-# Mobile Version:
+# Mobile App:
 <img src="https://raw.githubusercontent.com/papas000/flask-registrants/master/registrants-mobile.gif">
