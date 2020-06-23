@@ -7,4 +7,4 @@ open http://127.0.0.1:5000/
 https://papas000.eu.pythonanywhere.com/
 
 # Mobile Version:
-https://raw.githubusercontent.com/papas000/flask-registrants/master/registrants-mobile.gif
+<img src="https://raw.githubusercontent.com/papas000/flask-registrants/master/registrants-mobile.gif">
